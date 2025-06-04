@@ -78,33 +78,31 @@ teste ainda não feito
 
 ## 🧪 ID: 003
 
-### ✅ Cadastro Invalido:
+### ✅ Interface usuario:
 
 ### 🎯 Descrição:
-Verificar se o sistema nega cadastrar um novo usuário com dados Invalidos.
+A pagina principal iniciará com opções de peças de roupa e com modelos selecionavéis para a realização da sua compra.
 
 ### 🧰 Pré-requisitos:
-- Usuario deve ser Alertado que o cadastro não foi feito
-- Cadastro não pode ser salvo
+- O usuario poderá selecionar modelos de peças de roupas. 
+- O usuario poderá pesquisar modelos especificos.
+- O usuario poderá filtrar a categoria, tamanho, cor, genero, modelo e marca.  
 
 ### 📝 Procedimentos:
 1. Acessar a tela de cadastro
-2. Preencher os campos obrigatórios com dados inválidos
+2. Preencher os campos obrigatórios com dados válidos
 3. Clicar no botão "Cadastrar"
-4. Fecha e abrir programa
-5. Abrir tela Login
-6. Testar dados cadastrados
+4. Clicar em um modelo de roupa e sair
+5. Clicar em filtrar
+6. Selecionar opções dentro do filtro
+7. Pesquisar modelos e marcas de roupa
+8. Clicar em opções de tamanho 
 
-### 🧾 Dados de Entrada:
-| Campo            | Valor de Teste        |
-|------------------|------------------------|
-| Nome             | João da Silva          |
-| Email            | joaoMail.con           |
-| Senha            | Senha123               |
-| Confirmar Senha  | Senha123               |
+
+
 
 ### 💡 Resultado Esperado:
-Usuário deve Receber uma mensagem de erro que o Email é invalido. Login não deve ser possivel com os dados invalidos.
+O usuario realizar as funcionalidades de compra com sucesso, selecionando modelos e opções de roupas sem problemas.
 
 ### 📌 Resultado Obtido:
 teste ainda não feito
