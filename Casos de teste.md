@@ -113,3 +113,43 @@ teste ainda não feito
 
 ---
 
+## 🧪 ID: 004
+
+### ✅ Carrinho de compras:
+
+### 🎯 Descrição:
+A pagina do carrinho de compras armazenará seus modelos de roupas selecionados, assim em seguida realizando a compra dos itens.
+
+### 🧰 Pré-requisitos:
+- O usuario poderá selecionar modelos de peças de roupas para adicionar ao carrinho.
+- O usuario tem a opção de remover o item do carrinho.
+- O usuario poderá editar as caracteristicas da peça de roupa.
+  
+
+### 📝 Procedimentos:
+1. Acessar a tela de cadastro
+2. Preencher os campos obrigatórios com dados válidos
+3. Clicar no botão "Cadastrar"
+4. Clicar em um modelo de roupa
+5. Clicar para adicionar a roupa ao carrinho.
+6. Clicar para editar as caracteristicas da peça de roupa.
+7. Clicar para remover do carrinho.
+   
+
+
+
+
+
+
+### 💡 Resultado Esperado:
+O usuario realizar as funcionalidades do carrinho, podendo selecionar, editar e remover os modelos de roupa desejado e assim realizando sua compra.
+
+### 📌 Resultado Obtido:
+teste ainda não feito
+
+### ✅ Status do Teste:
+- [ ] Aprovado
+- [ ] Reprovado
+
+---
+
