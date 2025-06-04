@@ -4,10 +4,7 @@
 
 ## 1. 🎯 Objetivo dos Testes
 
-Descreva de forma clara o que será testado e os objetivos gerais dos testes.
-
-**Exemplo:**  
-Garantir que o sistema funcione corretamente nas funcionalidades de [criação, edição, visualização, exclusão, etc.], validando a experiência do usuário e a precisão do sistema.
+Garantir a perfeita funcionalidade do site com os pré requisitos ja estabelecidos.
 
 ---
 
@@ -19,9 +16,9 @@ Liste aqui todas as funcionalidades que serão testadas:
 
 | Funcionalidade               | Descrição                                        |
 |-----------------------------|--------------------------------------------------|
-| Ex: Adicionar tarefa        | Usuário poderá criar uma nova tarefa             |
-| Ex: Editar tarefa           | Usuário poderá alterar o título da tarefa        |
-| Ex: Interface de usuário    | Verificar a usabilidade e responsividade da UI   |
+| Carrinho                    | Usuário poderá criar carrinho com roupas selecionadas|
+| Pagamento                   | Usuário poderá pagar pelas roupas no carrinho        |
+| Interface de usuário        | Verificar a usabilidade e responsividade da UI       |
 
 ### ❌ O que **não** será testado
 
@@ -29,8 +26,8 @@ Liste funcionalidades que estão fora do escopo deste plano de teste:
 
 | Funcionalidade fora do escopo  | Justificativa                            |
 |-------------------------------|-------------------------------------------|
-| Ex: Segurança                  | Será avaliada em uma fase futura          |
-| Ex: Teste de carga             | Fora do escopo por falta de ferramentas   |
+| Segurança                      | Será avaliada em uma fase futura         |
+| Moedas diferentes              | Falta de acesso as diferentes moedas     |
 
 ---
 
@@ -40,9 +37,9 @@ Especifique os critérios para considerar o teste como **bem-sucedido**:
 
 | Funcionalidade           | Critério de sucesso                                 |
 |--------------------------|-----------------------------------------------------|
-| Ex: Adicionar tarefa     | Tarefa aparece corretamente na lista após salvar    |
-| Ex: Editar tarefa        | Alterações refletem imediatamente na lista          |
-| Ex: Excluir tarefa       | Tarefa removida sem erros                           |
+| Adicionar no carrinho    | Roupa aparece corretamente na lista após salvar     |
+| Editar compra            | Opções diferentes de pagamento devem funcionar corretamente|
+| Excluir roupa do carrinho| Roupa removida sem erros                           |
 
 ---
 
@@ -52,15 +49,15 @@ Descreva a abordagem dos testes que serão realizados:
 
 ### Tipos de Testes Utilizados:
 
-- [ ] Testes Funcionais
-- [ ] Testes de Interface (UI)
-- [ ] Testes de Usabilidade
+- [x] Testes Funcionais
+- [x] Testes de Interface (UI)
+- [x] Testes de Usabilidade
 
 ### Método de Execução:
 
 - [ ] Manual
 - [ ] Automatizado
-- [ ] Híbrido
+- [x] Híbrido
 
 ---
 
@@ -70,22 +67,21 @@ Descreva a abordagem dos testes que serão realizados:
 
 | Equipamento        | Especificações mínimas                     |
 |--------------------|--------------------------------------------|
-| Ex: Celular Android| Versão 10 ou superior                      |
-| Ex: Computador     | Navegador Chrome/Firefox atualizado       |
+|  Celular Android   | Versão 10 ou superior                      |
+|  Computador        | Navegador Chrome/Firefox/Opera atualizado  |
 
 ### Ferramentas:
 
 | Ferramenta             | Finalidade                             |
 |------------------------|----------------------------------------|
-| Ex: JUnit              | Testes automatizados                   |
-| Ex: TestRail           | Planejamento e execução dos testes     |
+|     JUnit              | Testes automatizados                   |
 
 ### Equipe Envolvida:
 
 | Função                 | Quantidade | Nome(s) (opcional)       |
 |------------------------|------------|--------------------------|
-| Testador               |            |                          |
-| Desenvolvedor          |            |                          |
+| Testador               |      2      |  Heloisa/Nathalia       |
+| Desenvolvedor          |      0      |                         |
 
 
 ---
