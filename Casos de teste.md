@@ -153,3 +153,196 @@ teste ainda não feito
 
 ---
 
+## 🧪 ID: 005
+
+### ✅ PagamentoCartãoValido:
+
+### 🎯 Descrição:
+Teste de pagamento com cartão Mastercard e saldo valido.
+
+### 🧰 Pré-requisitos:
+- O usuario poderá selecionar modelos do carrinho e somar o preço deles para a compra final.
+- O usuario tem a opção de Modificar forma de pagamento.
+- O usuario poderá salvar cartão.
+- Selecionar local de entrega.
+- Ver tempo de entrega.
+  
+
+### 📝 Procedimentos:
+1. Acessar a tela de cadastro
+2. Preencher os campos obrigatórios com dados válidos
+3. Clicar no botão "Cadastrar"
+4. Clicar em varios modelos de roupa e adicionar eles ao carrinho.
+5. Selecionar "Confirmar Compra" e selecionar Cartão Mastercard.
+6. Colocar informações validas de cartão.
+8. Selecionar Local de entrega.
+9. Clicar Pagar.
+10. Ter Acesso a tempo de entrega.
+
+
+
+
+### 💡 Resultado Esperado:
+O usuario deve poder pagar com o cartão e receber informações da compra
+
+### 📌 Resultado Obtido:
+teste ainda não feito
+
+### ✅ Status do Teste:
+- [ ] Aprovado
+- [ ] Reprovado
+
+---
+
+## 🧪 ID: 006
+
+### ✅ PagamentoCartãoInvalido:
+
+### 🎯 Descrição:
+Teste pagamento Mastercard com numero de Cartão invalido.
+
+### 🧰 Pré-requisitos:
+- O usuario poderá selecionar modelos do carrinho e somar o preço deles para a compra final.
+- O usuario tem a opção de Modificar forma de pagamento.
+  
+
+### 📝 Procedimentos:
+1. Acessar a tela de cadastro
+2. Preencher os campos obrigatórios com dados válidos
+3. Clicar no botão "Cadastrar"
+4. Clicar em varios modelos de roupa e adicionar eles ao carrinho.
+5. Selecionar "Confirmar Compra" e selecionar Cartão Mastercard.
+6. Colocar informações Invalidas de cartão.
+7. Selecionar Local de entrega.
+8. Clicar Pagar.
+
+
+
+
+### 💡 Resultado Esperado:
+O usuario deve Receber um erro e ser retornado ao carrinho, a compra NÃO deve ser realizada e o item NÃO deve ser removido do carrinho.
+
+### 📌 Resultado Obtido:
+teste ainda não feito
+
+### ✅ Status do Teste:
+- [ ] Aprovado
+- [ ] Reprovado
+
+---
+
+## 🧪 ID: 007
+
+### ✅ PagamentoCartãoSemSaldo:
+
+### 🎯 Descrição:
+Teste de pagamento com Cartão Mastercard com Saldo Invalido.
+
+### 🧰 Pré-requisitos:
+- O usuario poderá selecionar modelos do carrinho e somar o preço deles para a compra final.
+- O usuario tem a opção de Modificar forma de pagamento.
+- O usuario poderá salvar cartão.
+  
+
+### 📝 Procedimentos:
+1. Acessar a tela de cadastro
+2. Preencher os campos obrigatórios com dados válidos
+3. Clicar no botão "Cadastrar"
+4. Clicar em varios modelos de roupa e adicionar eles ao carrinho.
+5. Selecionar "Confirmar Compra" e selecionar Cartão Mastercard.
+6. Colocar informações Invalidas de cartão.
+7. Selecionar Local de entrega.
+8. Clicar Pagar.
+
+
+
+
+### 💡 Resultado Esperado:
+O usuario deve Receber um erro e ser retornado ao carrinho, a compra NÃO deve ser realizada e o item NÃO deve ser removido do carrinho.
+
+### 📌 Resultado Obtido:
+teste ainda não feito
+
+### ✅ Status do Teste:
+- [ ] Aprovado
+- [ ] Reprovado
+
+---
+
+## 🧪 ID: 008
+
+### ✅ PagamentoPixValido:
+
+### 🎯 Descrição:
+Teste de pagamento com Pix e saldo valido.
+
+### 🧰 Pré-requisitos:
+- O usuario poderá selecionar modelos do carrinho e somar o preço deles para a compra final.
+- O usuario tem a opção de Modificar forma de pagamento.
+- Selecionar local de entrega.
+- Ver tempo de entrega.
+  
+
+### 📝 Procedimentos:
+1. Acessar a tela de cadastro
+2. Preencher os campos obrigatórios com dados válidos
+3. Clicar no botão "Cadastrar"
+4. Clicar em varios modelos de roupa e adicionar eles ao carrinho.
+5. Selecionar "Confirmar Compra" e selecionar Pix.
+6. Escanear codigo Pix e realizar transação.
+8. Selecionar Local de entrega.
+9. Clicar Pagar.
+10. Ter Acesso a tempo de entrega.
+
+
+
+
+### 💡 Resultado Esperado:
+O usuario deve poder pagar com o Pix e receber informações da compra
+
+### 📌 Resultado Obtido:
+teste ainda não feito
+
+### ✅ Status do Teste:
+- [ ] Aprovado
+- [ ] Reprovado
+
+---
+
+
+## 🧪 ID: 009
+
+### ✅ PagamentoPixSemSaldo:
+
+### 🎯 Descrição:
+Teste de pagamento com Banco com Saldo Invalido.
+
+### 🧰 Pré-requisitos:
+- O usuario poderá selecionar modelos do carrinho e somar o preço deles para a compra final.
+- O usuario tem a opção de Modificar forma de pagamento.
+  
+
+### 📝 Procedimentos:
+1. Acessar a tela de cadastro
+2. Preencher os campos obrigatórios com dados válidos
+3. Clicar no botão "Cadastrar"
+4. Clicar em varios modelos de roupa e adicionar eles ao carrinho.
+5. Selecionar "Confirmar Compra" e selecionar Pix.
+6. Escanear codigo Pix e realizar transação alterada.
+7. Selecionar Local de entrega.
+8. Clicar Pagar.
+
+
+
+
+### 💡 Resultado Esperado:
+O usuario deve Receber um erro e ser retornado ao carrinho, a compra NÃO deve ser realizada e o item NÃO deve ser removido do carrinho.
+
+### 📌 Resultado Obtido:
+teste ainda não feito
+
+### ✅ Status do Teste:
+- [ ] Aprovado
+- [ ] Reprovado
+
+---
