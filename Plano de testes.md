@@ -19,6 +19,7 @@ Liste aqui todas as funcionalidades que serão testadas:
 | Carrinho                    | Usuário poderá criar carrinho com roupas selecionadas|
 | Pagamento                   | Usuário poderá pagar pelas roupas no carrinho        |
 | Interface de usuário        | Verificar a usabilidade e responsividade da UI       |
+| Cadastro                    | Verificar se usuario é cadastrado corretamente       |
 
 ### ❌ O que **não** será testado
 
@@ -102,8 +103,7 @@ Descreva como os testes serão realizados na prática.
 
 | Ambiente               | Descrição                                     |
 |------------------------|-----------------------------------------------|
-| Ex: Desenvolvimento    | Versão com novas funcionalidades              |
-| Ex: Homologação        | Ambiente próximo ao ambiente de produção      |
+| Desenvolvimento        | Versão com novas funcionalidades              |
 
 ---
 
@@ -113,10 +113,10 @@ Organize o tempo das etapas do teste.
 
 | Atividade                  | Data de Início | Data de Término |
 |---------------------------|----------------|-----------------|
-| Planejamento do Teste     |                |                 |
-| Preparação do Ambiente    |                |                 |
-| Execução dos Testes       |                |                 |
-| Documentação dos Resultados|               |                 |
+| Planejamento do Teste     |   04/06/2025   |04/06/2025 +20 min|
+| Preparação do Ambiente    |04/06/2025 +20 min| 05/06/2025    |
+| Execução dos Testes       |    05/06/2025  | 9/06/2025       |
+| Documentação dos Resultados|   10/06/2025  |    10/07/2025   |
 
 ---
 
@@ -126,7 +126,8 @@ Liste possíveis problemas que podem afetar os testes, com planos de ação.
 
 | Risco Identificado                      | Possível Impacto                   | Estratégia de Mitigação                     |
 |----------------------------------------|-----------------------------------|---------------------------------------------|
-| Ex: Incompatibilidade com iOS antigo   | Aplicativo não abre em alguns aparelhos | Testar em diferentes versões do iOS      |
-| Ex: Falta de dispositivos de teste     | Atraso nos testes manuais         | Uso de emuladores                           |
+| Incompatibilidade com iOS antigo   | Site não aparece corretamente em alguns aparelhos | Testar em diferentes versões do iOS|
+| Falta de dispositivos de teste     | Atraso nos testes manuais         | Uso de emuladores                               |
+| Incompatibilidade com Linux        | Site pode não ser acessivel para usuarios de Linux | Testar as diferentes versões do Linux|
 
 ---
