@@ -1,6 +1,6 @@
 
 
-<img src="https://github.com/user-attachments/assets/3a48c964-0779-4708-a5c9-34d6e38aa68d" alt="Texto alternativo" widht="300" >
+<img src="https://github.com/user-attachments/assets/3a48c964-0779-4708-a5c9-34d6e38aa68d" alt="Texto alternativo" widht="600" height="320" >
 
 
 
