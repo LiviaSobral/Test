@@ -42,6 +42,11 @@ Especifique os critérios para considerar o teste como **bem-sucedido**:
 | Editar compra            | Opções diferentes de pagamento devem funcionar corretamente|
 | Excluir roupa do carrinho| Roupa removida sem erros                           |
 | Registrar usuario novo   | Registro correto e Login funcional                 |
+| Deletar Usuario          | Deletar usuario do banco de dados                  |
+| Atualizar Usuario        | Modificar informações no banco de dados            |
+| Atualizar Produto        | Modifica Informações do produto no banco de dados  |
+| Remover Produto          | Remove Produto do banco de dados                   |
+| Adicionar produto        | Adiciona Produto no Banco de dados                 |
 
 ---
 
