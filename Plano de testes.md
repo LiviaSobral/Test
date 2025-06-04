@@ -19,7 +19,8 @@ Liste aqui todas as funcionalidades que serão testadas:
 | Carrinho                    | Usuário poderá criar carrinho com roupas selecionadas|
 | Pagamento                   | Usuário poderá pagar pelas roupas no carrinho        |
 | Interface de usuário        | Verificar a usabilidade e responsividade da UI       |
-| Cadastro                    | Verificar se usuario é cadastrado corretamente       |
+| Cadastro                    | Verificar se usuario e os produtos é cadastrado corretamente       |
+| Alteração de imformação     | Informação de usuario e produto pode ser editada |
 
 ### ❌ O que **não** será testado
 
