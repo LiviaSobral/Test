@@ -6,13 +6,16 @@
 Verificar se o sistema permite cadastrar um novo usuário com dados válidos.
 
 ### 🧰 Pré-requisitos:
-- (Ex: Usuário deve estar na tela de cadastro)
-- (Ex: Banco de dados deve estar acessível)
+- Usuario deve poder cadastrar com facilidade
+- Cadastro deve ser salvo
 
-### 📝 Procedimentos (Passos para execução do teste):
-1. (Ex: Acessar a tela de cadastro)
-2. (Ex: Preencher os campos obrigatórios com dados válidos)
-3. (Ex: Clicar no botão "Cadastrar")
+### 📝 Procedimentos:
+1. Acessar a tela de cadastro
+2. Preencher os campos obrigatórios com dados válidos
+3. Clicar no botão "Cadastrar"
+4. Fechar e abrir programa
+5. Abrir tela Login
+6. Testar dados cadastrados
 
 ### 🧾 Dados de Entrada:
 | Campo            | Valor de Teste        |
@@ -23,10 +26,10 @@ Verificar se o sistema permite cadastrar um novo usuário com dados válidos.
 | Confirmar Senha  | Senha123               |
 
 ### 💡 Resultado Esperado:
-(Ex: Usuário deve ser cadastrado e redirecionado para a página inicial com a mensagem "Cadastro realizado com sucesso".)
+Usuário deve ser cadastrado e redirecionado para a página inicial com a mensagem "Cadastro realizado com sucesso". O login deve ser possivel depois do cadastro.
 
 ### 📌 Resultado Obtido:
-(Ex: Usuário foi cadastrado com sucesso e redirecionado corretamente.)
+Teste ainda não feito
 
 ### ✅ Status do Teste:
 - [ ] Aprovado
@@ -34,54 +37,41 @@ Verificar se o sistema permite cadastrar um novo usuário com dados válidos.
 
 ---
 
-## 🧪 Caso de Teste 2
+## 🧪 ID: 002
 
-### ✅ Nome do Teste:
-...
-
-(Repita a estrutura acima para cada novo caso de teste.)
-
----
 ### ✅ Cadastro Invalido:
 
 ### 🎯 Descrição:
 Verificar se o sistema nega cadastrar um novo usuário com dados Invalidos.
 
 ### 🧰 Pré-requisitos:
-- (Ex: Usuário deve estar na tela de cadastro)
-- (Ex: Banco de dados deve estar acessível)
+- Usuario deve ser Alertado que o cadastro não foi feito
+- Cadastro não pode ser salvo
 
-### 📝 Procedimentos (Passos para execução do teste):
-1. (Ex: Acessar a tela de cadastro)
-2. (Ex: Preencher os campos obrigatórios com dados válidos)
-3. (Ex: Clicar no botão "Cadastrar")
+### 📝 Procedimentos:
+1. Acessar a tela de cadastro
+2. Preencher os campos obrigatórios com dados inválidos
+3. Clicar no botão "Cadastrar"
+4. Fecha e abrir programa
+5. Abrir tela Login
+6. Testar dados cadastrados
 
 ### 🧾 Dados de Entrada:
 | Campo            | Valor de Teste        |
 |------------------|------------------------|
 | Nome             | João da Silva          |
-| Email            | joao@email.com         |
+| Email            | joaoMail.con           |
 | Senha            | Senha123               |
 | Confirmar Senha  | Senha123               |
 
 ### 💡 Resultado Esperado:
-(Ex: Usuário deve ser cadastrado e redirecionado para a página inicial com a mensagem "Cadastro realizado com sucesso".)
+Usuário deve Receber uma mensagem de erro que o Email é invalido. Login não deve ser possivel com os dados invalidos.
 
 ### 📌 Resultado Obtido:
-(Ex: Usuário foi cadastrado com sucesso e redirecionado corretamente.)
+teste ainda não feito
 
 ### ✅ Status do Teste:
 - [ ] Aprovado
 - [ ] Reprovado
 
 ---
-
-## 🧪 Caso de Teste 2
-
-### ✅ Nome do Teste:
-...
-
-(Repita a estrutura acima para cada novo caso de teste.)
-
----
-
