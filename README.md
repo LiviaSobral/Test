@@ -1,5 +1,7 @@
 
-![Design sem nome (1)-Photoroom](https://github.com/user-attachments/assets/6e5a7e00-f9c3-4b8a-9630-90de842ef062)
+
+![Design sem nome (2)-Photoroom](https://github.com/user-attachments/assets/ebc404ca-703b-49ad-a5ba-265a6e7bc9bd)
+
 
 # SM style
 
