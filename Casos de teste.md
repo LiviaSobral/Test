@@ -312,7 +312,7 @@ teste ainda não feito
 
 ## 🧪 ID: 009
 
-### ✅ PagamentoPixSemSaldo:
+### ✅ PagamentoPixPagamentoAlterado:
 
 ### 🎯 Descrição:
 Teste de pagamento com Banco com Saldo Invalido.
