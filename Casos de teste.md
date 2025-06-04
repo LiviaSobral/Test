@@ -1,10 +1,9 @@
 ## 🧪 ID: 001
 
 ### ✅ Cadastro Valido:
-(Ex: Cadastro com dados válidos)
 
 ### 🎯 Descrição:
-(Descreva o que está sendo testado. Ex: Verificar se o sistema permite cadastrar um novo usuário com dados válidos.)
+Verificar se o sistema permite cadastrar um novo usuário com dados válidos.
 
 ### 🧰 Pré-requisitos:
 - (Ex: Usuário deve estar na tela de cadastro)
@@ -44,10 +43,9 @@
 
 ---
 ### ✅ Cadastro Invalido:
-(Ex: Cadastro com dados válidos)
 
 ### 🎯 Descrição:
-(Descreva o que está sendo testado. Ex: Verificar se o sistema permite cadastrar um novo usuário com dados válidos.)
+Verificar se o sistema nega cadastrar um novo usuário com dados Invalidos.
 
 ### 🧰 Pré-requisitos:
 - (Ex: Usuário deve estar na tela de cadastro)
