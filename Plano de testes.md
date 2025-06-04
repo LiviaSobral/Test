@@ -41,6 +41,7 @@ Especifique os critérios para considerar o teste como **bem-sucedido**:
 | Adicionar no carrinho    | Roupa aparece corretamente na lista após salvar     |
 | Editar compra            | Opções diferentes de pagamento devem funcionar corretamente|
 | Excluir roupa do carrinho| Roupa removida sem erros                           |
+| Registrar usuario novo   | Registro correto e Login funcional                 |
 
 ---
 
